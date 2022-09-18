@@ -34,7 +34,7 @@ Uncaught ReferenceError: println is not defined
    return sum;
    }
 
-getEvenSum(10);
+getEvenSum(20);
 
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
    function getOddSum(max) {
@@ -132,7 +132,7 @@ sum += i;
 return sum;
 }
 
-EvenSum(10);
+EvenSum(20);
 
 function add(max) {
 let sum = 0,
