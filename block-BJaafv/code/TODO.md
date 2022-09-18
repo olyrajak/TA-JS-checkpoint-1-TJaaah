@@ -76,7 +76,7 @@ if (a > b) return a; else return b;
 }
 
 const product = function (a, b) {
-return a\*b;
+return a*b;
 }
 
 9. Can function declaration be a Anonymous Function? Explain
