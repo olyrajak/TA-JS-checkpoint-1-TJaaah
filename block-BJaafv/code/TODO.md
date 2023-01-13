@@ -58,6 +58,7 @@ function showMessage() {
   return message;
 }
 
+
 alert(userName); // "John"
 
 showMessage(); // "Hello, John"
@@ -109,12 +110,15 @@ return a + b;
 }
 
 //greater value
+
 function greaterNumber(a, b) {
 if (a > b) return a ` is greater`;
 else return b ` is greater`;
 }
 
 //product
+
+
 function product(a, b) {
 return a\*b;
 }
