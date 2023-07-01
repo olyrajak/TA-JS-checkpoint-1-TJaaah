@@ -2,14 +2,13 @@
 
    function average(){
    let sum = 0 ;
-   
+
    for(let i = 0 ; i < 10 ; i ++){
-    sum += Number(prompt(`Enter ${i} value :`));
+   sum += Number(prompt(`Enter ${i} value :`));
    }
    let average = sum / 10 ;
    return average ;
    }
-
 
 2. What will be the output of the code below
 
@@ -37,7 +36,7 @@ Uncaught ReferenceError: println is not defined
    return sum;
    }
 
-getEvenSum(20);
+getEvenSum(30);
 
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
    function getOddSum(max) {
@@ -50,7 +49,7 @@ getEvenSum(20);
    return sum;
    }
 
-getOddSum(10); 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
+getOddSum(20); 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
 
 - If the input value is less than 0 return `not a valid input`
 - For example if the input is `123` output should be `6`.
