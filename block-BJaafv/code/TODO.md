@@ -8,6 +8,7 @@ function sum(a, b) {
 
 // second
 function sum(a, b) {
+  
   console.log(a + b);
 }
 ```
@@ -49,6 +50,9 @@ showMessage();
 "Hello, John" is the output. The function will first search within itself for the value of variable 'username', whwn not found in the function it will bubble out and search for it. As we have stored the value for 'username' outside the function it will access it and give the result. This method is known as outer variable.
 
 7. What will be the output for `Output1` `Output2` and `Output3` in the code below.
+
+
+
 
 ```js
 let userName = "John";
