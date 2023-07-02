@@ -20,7 +20,9 @@ while (i < 3) {
   println('hi');
   i++;
 }
+
 this is return a error message.
+
 Uncaught ReferenceError: println is not defined
 ```
 
@@ -94,8 +96,8 @@ function getOutput(name) {
 }
 
 getOutput("Arya"); // "You are arya"
-getOutput("John"); // what will be the output
-getOutput(); // what will be the output
+getOutput("John"); // "You are john"
+getOutput(); // "Who are you"
 ```
 
 8. What will be the output of the following code given below? Explain the reason?
