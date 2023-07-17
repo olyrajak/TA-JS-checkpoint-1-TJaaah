@@ -1,17 +1,28 @@
 1. What is the difference between the two `sum` function given below?
 
 ```js
+
+
 // first
+
+
 function sum(a, b) {
   return a + b;
 }
 
+
+
 // second
+
+
 function sum(a, b) {
   
   console.log(a + b);
 }
 ```
+
+
+
 
 First sum function will return the result where as the second sum function will display the result in the console log.
 
